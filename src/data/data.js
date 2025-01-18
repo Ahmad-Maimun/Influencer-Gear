@@ -1,0 +1,66 @@
+const products = [
+  {
+    name: 'Flex Tripod',
+    price: '$50.48',
+    rating: '4.5',
+    shipping: 'Worldwide shipping available',
+    protection: 'Buyers protection possible',
+  },
+  {
+    name: 'Microphone',
+    price: '$120.25',
+    rating: '4.9',
+    shipping: 'Worldwide shipping available',
+    protection: 'Buyers protection possible',
+  },
+  {
+    name: 'Airbuds',
+    price: '$100.00',
+    rating: '4.8',
+    shipping: 'Worldwide shipping available',
+    protection: 'Buyers protection possible',
+  },
+  {
+    name: 'Drone',
+    price: '$980.25',
+    rating: '4.6',
+    shipping: 'Worldwide shipping available',
+    protection: 'Buyers protection possible',
+  },
+  {
+    name: 'Light Setup',
+    price: '$1200.00',
+    rating: '4.9',
+    shipping: 'Worldwide shipping available',
+    protection: 'Buyers protection possible',
+  },
+  {
+    name: 'Photoshoot Set',
+    price: '$820.40',
+    rating: '4.7',
+    shipping: 'Worldwide shipping available',
+    protection: 'Buyers protection possible',
+  },
+  {
+    name: 'Vlogging Camera',
+    price: '$1800.80',
+    rating: '4.8',
+    shipping: 'Worldwide shipping available',
+    protection: 'Buyers protection possible',
+  },
+  {
+    name: 'Green Screen',
+    price: '$25.48',
+    rating: '4.5',
+    shipping: 'Worldwide shipping available',
+    protection: 'Buyers protection possible',
+  },
+  {
+    name: 'Action Camera',
+    price: '$380.00',
+    rating: '4.7',
+    shipping: 'Worldwide shipping available',
+    protection: 'Buyers protection possible',
+  },
+];
+export default products;
