@@ -22,3 +22,18 @@
     }
   }
 }
+@media screen and (max-width: 576px) {
+  .navbar {
+    justify-content: space-between;
+    padding: 0 15px;
+    margin: 35px auto 0;
+    ul {
+      li {
+        display: none;
+      }
+      li:last-child {
+        display: block;
+      }
+    }
+  }
+}
