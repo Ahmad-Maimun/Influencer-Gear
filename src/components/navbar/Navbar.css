@@ -1,0 +1,25 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  font-family: var(--poppins-font);
+  align-items: center;
+  margin-top: 20px;
+  span {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  ul {
+    display: flex;
+    gap: 34px;
+    align-items: center;
+    li {
+      list-style: none;
+      a {
+        font-weight: 600;
+        font-size: 1rem;
+        color: #3a3a3a;
+        text-decoration: none;
+      }
+    }
+  }
+}
