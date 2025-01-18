@@ -14,8 +14,10 @@ const Hero = () => {
           <a href="#">Preebook now</a>
         </div>
         <div className="hero-img">
-          <img className="circle-img" src={circle} alt="" />
-          <img className="main-img" src={mainCamera} alt="" />
+          <div className="hero-image">
+            <img className="circle-img" src={circle} alt="" />
+            <img className="main-img" src={mainCamera} alt="" />
+          </div>
         </div>
       </div>
     </>

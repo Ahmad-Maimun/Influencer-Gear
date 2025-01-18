@@ -17,7 +17,7 @@
       font-size: 1rem;
       color: #3a3a3a;
       margin-bottom: 16px;
-      width: 505px;
+      max-width: 505px;
     }
     a {
       padding: 10px 24px;
@@ -26,19 +26,75 @@
       font-size: 1rem;
       background-color: #e02c6d;
       border-radius: 40px;
+      display: inline-block;
     }
   }
   .hero-img {
     position: relative;
+    .hero-image {
+      max-width: 475px;
+    }
     .circle-img {
-      width: 475px;
-      height: 475px;
+      max-width: 100%;
     }
     .main-img {
-      width: 440px;
+      max-width: 100%;
       position: absolute;
       top: 25px;
       right: 30px;
     }
+  }
+}
+/* Small Device */
+@media screen and (max-width: 576px) {
+  .hero {
+    padding: 0 15px;
+    margin: 0 auto;
+    flex-direction: column;
+    flex-direction: column-reverse;
+    .hero-content {
+      width: 100%;
+      text-align: center;
+      h1 {
+        font-size: 1.75rem;
+      }
+      p {
+        font-size: 0.875rem;
+      }
+    }
+    .hero-img {
+      .hero-image {
+        width: 257px;
+        .circle-img {
+          width: 257px;
+        }
+        .main-img {
+          width: 202px;
+          top: 30px;
+          right: 25px;
+        }
+      }
+    }
+  }
+}
+/* Medium Device */
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    flex-direction: column-reverse;
+    .hero-content {
+      width: 100%;
+      /* margin: 0 auto; */
+      text-align: center;
+      p {
+        margin: 0 auto 16px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1220px) {
+  .hero {
+    padding: 15px 15px;
   }
 }
