@@ -50,3 +50,39 @@
     }
   }
 }
+
+@media screen and (max-width: 576px) {
+  .products .products-cards {
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0 auto;
+    padding: 0 15px;
+    .product-card {
+      img {
+        width: 100%;
+        object-fit: cover;
+        border-radius: 5px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  .products .products-cards {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 30px;
+    .product-card {
+      img {
+        width: 100%;
+        object-fit: cover;
+        border-radius: 5px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  .products .products-cards {
+    padding: 0 10px;
+    gap: 20px;
+  }
+}
