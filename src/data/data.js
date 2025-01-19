@@ -1,5 +1,17 @@
+import {
+  action,
+  singleLight,
+  camera,
+  setup,
+  lights,
+  drone,
+  airpod,
+  mic,
+  tripod,
+} from '../assets/images/images';
 const products = [
   {
+    image: tripod,
     name: 'Flex Tripod',
     price: '$50.48',
     rating: '4.5',
@@ -7,6 +19,7 @@ const products = [
     protection: 'Buyers protection possible',
   },
   {
+    image: mic,
     name: 'Microphone',
     price: '$120.25',
     rating: '4.9',
@@ -14,6 +27,7 @@ const products = [
     protection: 'Buyers protection possible',
   },
   {
+    image: airpod,
     name: 'Airbuds',
     price: '$100.00',
     rating: '4.8',
@@ -21,6 +35,7 @@ const products = [
     protection: 'Buyers protection possible',
   },
   {
+    image: drone,
     name: 'Drone',
     price: '$980.25',
     rating: '4.6',
@@ -28,6 +43,7 @@ const products = [
     protection: 'Buyers protection possible',
   },
   {
+    image: lights,
     name: 'Light Setup',
     price: '$1200.00',
     rating: '4.9',
@@ -35,6 +51,7 @@ const products = [
     protection: 'Buyers protection possible',
   },
   {
+    image: setup,
     name: 'Photoshoot Set',
     price: '$820.40',
     rating: '4.7',
@@ -42,6 +59,7 @@ const products = [
     protection: 'Buyers protection possible',
   },
   {
+    image: camera,
     name: 'Vlogging Camera',
     price: '$1800.80',
     rating: '4.8',
@@ -49,6 +67,7 @@ const products = [
     protection: 'Buyers protection possible',
   },
   {
+    image: singleLight,
     name: 'Green Screen',
     price: '$25.48',
     rating: '4.5',
@@ -56,6 +75,7 @@ const products = [
     protection: 'Buyers protection possible',
   },
   {
+    image: action,
     name: 'Action Camera',
     price: '$380.00',
     rating: '4.7',

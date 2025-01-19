@@ -2,6 +2,16 @@ import searchIcon from './icons/search.png';
 import cartIcon from './icons/cart.png';
 import circle from './circle-design.svg';
 import mainCamera from './main-camera.png';
+// Products Image
+import tripod from './tripod.png';
+import mic from './mic.png';
+import airpod from './airpod.png';
+import drone from './drone.png';
+import lights from './lights.png';
+import setup from './setup.png';
+import camera from './camera.png';
+import singleLight from './single-light.png';
+import action from './action.png';
 // Icons
 import alibaba from './icons/Alibaba.svg';
 import amazon from './icons/Amazon.svg';
@@ -22,4 +32,13 @@ export {
   rakuten,
   walmart,
   target,
+  tripod,
+  mic,
+  airpod,
+  drone,
+  lights,
+  setup,
+  camera,
+  singleLight,
+  action,
 };
