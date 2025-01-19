@@ -12,6 +12,7 @@ import setup from './setup.png';
 import camera from './camera.png';
 import singleLight from './single-light.png';
 import action from './action.png';
+import gear from './gear.png';
 // Icons
 import alibaba from './icons/Alibaba.svg';
 import amazon from './icons/Amazon.svg';
@@ -41,4 +42,5 @@ export {
   camera,
   singleLight,
   action,
+  gear,
 };
